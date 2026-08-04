@@ -1,78 +1,227 @@
-Create a professional Arabic RTL EdTech Startup landing page UI for:
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-"منصة حروفنا للتشخيص والتأسيس الذكي"
+<title>حروفنا | منصة تعليم القراءة</title>
 
-Important:
-Do NOT create a text-only page.
-Build a complete visual website with sections, cards, icons, illustrations, buttons, and modern layouts.
+<style>
+*{
+box-sizing:border-box;
+}
 
-Design style:
-- Modern educational startup website
-- Clean Apple-like UI
-- Premium but friendly for parents and children
-- Arabic RTL layout
-- Mobile responsive
+body{
+margin:0;
+font-family:Tahoma, Arial;
+background:#f5f7fa;
+color:#333;
+}
 
-Sections:
+header{
+background:linear-gradient(135deg,#1E5EFF,#4b8cff);
+color:white;
+padding:70px 20px;
+text-align:center;
+}
 
-1. Hero Section:
-Create a large visual hero area with:
-- Child learning with a book and tablet illustration
-- Logo area for Huroofna
-- Main headline:
-"ساعد طفلك على بناء أساس قوي في القراءة"
-- Short description
-- Two buttons:
-"ابدأ الآن"
-"اكتشف المنصة"
+header h1{
+font-size:45px;
+margin-bottom:15px;
+}
 
-2. Problem Section:
-Use visual cards showing:
-- ضعف القراءة
-- الفاقد التعليمي
-- صعوبة متابعة مستوى الطفل
+header p{
+font-size:20px;
+line-height:1.8;
+}
 
-3. Solution Section:
-Create 4 visual feature cards:
-- التشخيص الذكي
-- خطة تعلم شخصية
-- تطبيق تفاعلي
-- متابعة التقدم
+.btn{
+display:inline-block;
+background:#FF8A00;
+color:white;
+padding:15px 35px;
+margin:15px;
+border-radius:30px;
+text-decoration:none;
+font-size:18px;
+}
 
-4. Product Section:
-Show three attractive cards:
-- كتاب حروفنا الجميلة
-- التطبيق الذكي
-- لوحة التقارير
+section{
+max-width:1100px;
+margin:auto;
+padding:50px 20px;
+}
 
-5. Content Section:
-Create statistics cards:
-200 فيديو
-800 صورة
-500 صوت
-400 سؤال تفاعلي
-140 ورقة عمل
+.title{
+text-align:center;
+color:#1E5EFF;
+font-size:32px;
+margin-bottom:30px;
+}
 
-6. How it Works:
-Create a 4-step timeline:
-تشخيص → تحليل → تعلم → متابعة
+.cards{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
 
-7. Trust Section:
-Show:
-+33 سنة خبرة تربوية
-1000 مستخدم
-حاضنة الجامعة الإسلامية
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+width:300px;
+box-shadow:0 5px 20px #ddd;
+text-align:center;
+}
 
-8. Final CTA:
-Large attractive section:
-"ابدأ رحلة القراءة مع حروفنا"
+.card h3{
+color:#1E5EFF;
+}
 
-Button:
-"ابدأ الآن"
+.contact{
+background:#1E5EFF;
+color:white;
+text-align:center;
+padding:40px;
+}
 
-Visual requirements:
-- Use illustrations, icons, images placeholders.
-- Use cards and modern spacing.
-- Avoid long paragraphs.
-- Maximum text per section: 2-3 short sentences.
-- Focus on conversion and user experience.
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:700px){
+header h1{
+font-size:32px;
+}
+.cards{
+flex-direction:column;
+align-items:center;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+
+<header>
+
+<h1>منصة حروفنا</h1>
+
+<p>
+نتعلم القراءة بثقة... خطوة بخطوة
+</p>
+
+<p>
+منصة تعليمية مبتكرة تساعد الأطفال من 5 إلى 7 سنوات على تعلم القراءة باللغة العربية باستخدام الطريقة الصوتية.
+</p>
+
+<a class="btn" href="#">ابدأ الآن</a>
+
+<a class="btn" href="#">تواصل معنا</a>
+
+</header>
+
+
+<section>
+
+<h2 class="title">المشكلة التي نعالجها</h2>
+
+<div class="card">
+
+<p>
+ضعف مهارات القراءة والفاقد التعليمي والحاجة إلى أدوات تعليمية عربية تفاعلية.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2 class="title">حل حروفنا</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>الطريقة الصوتية</h3>
+<p>تعليم الحروف والأصوات بطريقة سهلة وممتعة.</p>
+</div>
+
+
+<div class="card">
+<h3>اختبارات ذكية</h3>
+<p>قياس مستوى الطفل ومتابعة تقدمه.</p>
+</div>
+
+
+<div class="card">
+<h3>أنشطة تفاعلية</h3>
+<p>ألعاب وتمارين تساعد الطفل على التعلم.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2 class="title">لماذا حروفنا؟</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>33+ سنة خبرة</h3>
+<p>خبرة طويلة في التعليم الأساسي.</p>
+</div>
+
+
+<div class="card">
+<h3>تعلم ممتع</h3>
+<p>بيئة تعليمية مناسبة للأطفال.</p>
+</div>
+
+
+<div class="card">
+<h3>متابعة الأهل</h3>
+<p>تقارير تساعد الأسرة على متابعة الطفل.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<div class="contact">
+
+<h2>ابدأ رحلة طفلك مع حروفنا</h2>
+
+<p>
+تواصل معنا لمعرفة المزيد عن المنصة.
+</p>
+
+<a class="btn" href="#">اتصل بنا</a>
+
+</div>
+
+
+
+<footer>
+
+© 2026 منصة حروفنا - جميع الحقوق محفوظة
+
+</footer>
+
+
+</body>
+</html>
